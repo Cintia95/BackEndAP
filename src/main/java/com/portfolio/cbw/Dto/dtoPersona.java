@@ -8,19 +8,26 @@ public class dtoPersona {
     @NotBlank
     private String apellido;
     @NotBlank
+    private String titulo;
+    @NotBlank
     private String descripcion;
     @NotBlank
     private String img;
 
+    //Constructor
+    
     public dtoPersona() {
     }
 
-    public dtoPersona(String nombre, String apellido, String descripcion, String img) {
+    public dtoPersona(String nombre, String apellido, String titulo, String descripcion, String img) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.titulo = titulo;
         this.descripcion = descripcion;
         this.img = img;
     }
+
+    //Getter y Setter
 
     public String getNombre() {
         return nombre;
@@ -38,6 +45,14 @@ public class dtoPersona {
         this.apellido = apellido;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+    
     public String getDescripcion() {
         return descripcion;
     }

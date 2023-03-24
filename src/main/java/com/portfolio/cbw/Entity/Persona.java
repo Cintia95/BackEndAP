@@ -22,19 +22,28 @@ public class Persona {
     private String apellido;
     
     @NotNull
+    @Size(min = 1, max = 50, message = "no cumple con la longitud")
+    private String titulo;
+    
+    @NotNull
     private String descripcion;
     
     private String img;
 
+    //Constructores
+    
     public Persona() {
     }
 
-    public Persona(String nombre, String apellido, String descripcion, String img) {
+    public Persona(String nombre, String apellido, String titulo, String descripcion, String img) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.titulo = titulo;
         this.descripcion = descripcion;
         this.img = img;
     }
+
+    //Getter y Setter
 
     public int getId() {
         return id;
@@ -60,6 +69,14 @@ public class Persona {
         this.apellido = apellido;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
     public String getDescripcion() {
         return descripcion;
     }
@@ -76,9 +93,5 @@ public class Persona {
         this.img = img;
     }
 
-    
-    
-    
-    
     
 }

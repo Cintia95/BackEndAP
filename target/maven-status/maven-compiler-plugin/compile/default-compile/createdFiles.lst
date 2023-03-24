@@ -1,4 +1,6 @@
 com\portfolio\cbw\Security\Repository\iRolRepository.class
+com\portfolio\cbw\Repository\RProyectos.class
+com\portfolio\cbw\Dto\DtoProyectos.class
 com\portfolio\cbw\Service\Shys.class
 com\portfolio\cbw\Security\MainSecurity.class
 com\portfolio\cbw\Controller\PersonaController.class
@@ -7,12 +9,14 @@ com\portfolio\cbw\Security\jwt\JwtEntryPoint.class
 com\portfolio\cbw\Security\Enums\RolNombre.class
 com\portfolio\cbw\Security\jwt\JwtProvider.class
 com\portfolio\cbw\Controller\CHys.class
+com\portfolio\cbw\Service\SProyectos.class
 com\portfolio\cbw\Repository\Rhys.class
 com\portfolio\cbw\Security\Entity\UsuarioPrincipal.class
 com\portfolio\cbw\Security\Service\UserDetailsImpl.class
 com\portfolio\cbw\Entity\Persona.class
 com\portfolio\cbw\Security\Service\UsuarioService.class
 com\portfolio\cbw\Controller\CEducacion.class
+com\portfolio\cbw\Controller\CProyectos.class
 com\portfolio\cbw\Security\Dto\JwtDto.class
 com\portfolio\cbw\Dto\dtoPersona.class
 com\portfolio\cbw\Security\Dto\NuevoUsuario.class
@@ -31,6 +35,7 @@ com\portfolio\cbw\Dto\dtoEducacion.class
 com\portfolio\cbw\Entity\Experiencia.class
 com\portfolio\cbw\Repository\RExperiencia.class
 com\portfolio\cbw\Service\Seducacion.class
+com\portfolio\cbw\Entity\Proyectos.class
 com\portfolio\cbw\Entity\Educacion.class
 com\portfolio\cbw\Security\Controller\Mensaje.class
 com\portfolio\cbw\Security\Dto\LoginUsuario.class
